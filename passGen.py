@@ -6,6 +6,5 @@ def new_pass(paswlength):
     """Function that generates random password based on user given length."""
     special = '#$%&()*+<=>?@_'
     lists = [ascii_letters, digits, special]
-
     pasw = ''.join(choice(choices(lists)[0]) for i in range(paswlength))
-    print("generated password: ", pasw)
+    return pasw
