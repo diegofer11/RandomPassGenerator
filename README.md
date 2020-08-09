@@ -12,4 +12,4 @@ p.new_pass(p_length)
 ```
 As a result it will generate an string with lowercase and uppercase characters, digits and some special characters '#$%&()*+<=>?@_'.
 
-In terms of execution time it is O(1).
+In terms of execution time and space the function is O(1).
